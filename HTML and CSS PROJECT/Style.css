@@ -1,0 +1,186 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width:600px) {
+    body{
+        font-size: 0.5em;
+        padding: 0%;
+    }  
+}
+
+.sticky{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+.main-nav{
+    display: flex;
+    list-style: none;
+    font-size: 1.2em;
+    text-transform : none;
+    margin: 0px;
+}
+
+@media only screen and (max-width:600px) {
+    .main-nav{
+        font-size: 1em;
+        padding: 0%;
+    }  
+}
+
+li{
+    padding: 20px;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.push{
+    margin-left: auto;
+}
+
+
+h2{
+    text-align: center;
+    border: 2px white solid;
+    background-color: white;
+    color: #cf0404;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 20px;
+    box-shadow: 5px 5px 8px grey;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 8px grey;
+}
+
+@media only screen and (max-width:600px) {
+    .container{
+        display: flex;
+        font-size: 0.5em;
+        padding:0px;
+    }  
+}
+
+
+.container:hover{
+    transform: scale(1.1);
+}
+
+.zone {
+    cursor:pointer;
+    font-size:1em;
+    border-radius:4px;
+    border:1px solid#bbb;
+    transition: all 1s linear;
+    color: white;
+    background: #240808; /* Old browsers */
+    background: -moz-linear-gradient(top, #240808 0%, rgb(194, 191, 41) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#240808), color-stop(100%,rgb(194, 191, 41))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #240808 0%,rgb(194, 191, 41)100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #240808 0%,rgb(194, 191, 41) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #240808 0%,rgb(194, 191, 41) 100%); /* IE10+ */
+    background: linear-gradient(top, #240808 0%, rgb(194, 191, 41) 100%); /* W3C */;
+}
+.cover{
+    width: 100%;
+    background-position: center;
+    min-height: 50vh;
+}
+
+ .container2{
+     display: flex;
+     border: 2px solid teal;
+     background-color: white;
+     box-shadow: 4px, 4px 8px grey;
+     justify-content: center;
+     align-items: center;
+     padding: 30px;
+     box-shadow: 5px 5px 8px grey;
+ }
+
+ @media only screen and (max-width:600px) {
+    p{
+        display: flex;
+        font-size: 0.5em;
+        padding:0px;
+    }  
+}
+
+p{
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.list{
+    font-size: 2em;
+    text-decoration: underline;
+    font-weight: bold;
+    list-style: none;
+    text-align: center;
+    line-height: 20px;
+}
+
+.grid-wrapper{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+.box > img{
+    width: 100%;
+}
+
+.text{
+    font-size: 2em;
+    text-align: center;
+}
+
+.box{
+    background-color:white;
+    transition: all 1s;
+    grid-column-start: span 2;
+}
+
+.box:hover{
+   transform: scale(1.1);
+}
+
+.white{
+    background-color: white;
+}
+
+.grid-wrapper2{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+footer{
+    text-align: center;
+    font-weight: bolder;
+    color: #cf0404;
+}
+
+.Top{
+    text-align: center;
+    font-weight: bolder;
+    color: #cf0404;
+    font-size: 1.2em;
+}
